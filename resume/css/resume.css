@@ -1,0 +1,52 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0; }
+
+#warp {
+  width: 100%;
+  background: black;
+  overflow: hidden; }
+
+.content {
+  width: 100%;
+  height: 100%; }
+
+.teb1, .teb2, .teb3, .teb4 {
+  width: 100%;
+  height: 100%; }
+
+.teb1 {
+  background: yellow;
+  position: relative; }
+  .teb1 .myName {
+    width: 700px;
+    height: 280px;
+    background: red;
+    position: absolute;
+    background: #cccccc; }
+    .teb1 .myName .name_big {
+      text-align: center;
+      font-family: "Comic Sans MS","华文新魏","华文隶书","方正舒体","软文雅黑";
+      white-space: nowrap;
+      font-size: 70px;
+      color: black;
+      user-select: none; }
+    .teb1 .myName .motto {
+      font-size: 27px;
+      color: #000;
+      font-family: "方正舒体","Comic Sans MS","华文新魏","华文隶书","软文雅黑";
+      text-align: center;
+      display: block;
+      font-weight: bolder; }
+
+.teb2 {
+  background: red; }
+
+.teb3 {
+  background: blue; }
+
+.teb4 {
+  background: green; }
+
+/*# sourceMappingURL=resume.css.map */
